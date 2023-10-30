@@ -1,0 +1,65 @@
+/*
+  You don't need to touch this file to complete the assignment!
+  Unless you want to add styles and make it look more beautiful.
+*/
+
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+/* Style for the entire game section */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the game table */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for table headers (category names) */
+th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #555;
+}
+
+/* Style for table cells (clue values) */
+td {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #555;
+  padding: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+td.answered{
+  background-color: #b7b0b0;
+}
+
+/* Style for the active clue box */
+#active-clue {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+#play{
+  display: block;
+}
